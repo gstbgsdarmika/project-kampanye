@@ -1,20 +1,21 @@
-import Img from '../assets/image/card1.png';
-export default function ProgramCard() {
+export default function ProgramCard({ title, subtitle, imageUrl, link }) {
   return (
-    <div className="items-center justify-center p-4 bg-white border shadow-md rounded-3xl">
-      <div className="rounded-3xl">
-        <img src={Img} alt="Card Image" />
+    <div className="items-center justify-center p-4 mx-3 bg-white border shadow-md md:mx-0 md:rounded-3xl rounded-2xl">
+      <div className="md:rounded-3xl rounded-2xl">
+        <img src={imageUrl} alt="Card Image" />
       </div>
-      <p className="pt-4 text-3xl font-bold text-center text-black">
-        Pendidikan Unggul
+      <p className="pt-4 font-bold text-center text-black md:text-2xl">
+        {title}
       </p>
-      <p className="text-[#676363] text-center font-normal text-lg pt-2 pb-4">
-        Fokus pada peningkatan kualitas pendidikan dengan menyesuaikan
-        kurikulum dan memastikan akses setara bagi semua.
-      </p>
-      <button className="w-full py-2.5 bg-[#ED1B24] text-white justify-center items-center px-4 rounded-[999px]">
+      <p className="text-[#676363] text-center text-lg pt-2 pb-4">{subtitle}</p>
+      <a
+        href={link}
+        target="_blank"
+        rel="noreferrer"
+        className="block w-full py-2.5 bg-[#ED1B24] text-white text-center rounded-[999px]"
+      >
         Selengkapnya
-      </button>
+      </a>
     </div>
-  )
+  );
 }
