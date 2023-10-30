@@ -3,6 +3,7 @@ import Program from "./Program/Program";
 import Hero from "./Hero/Hero";
 import Profile from "./Profile/Profile";
 import Family from "./Family/Family";
+import Countdown from "./Countdown/Countdown";
 
 export default function LandingPage() {
   return (
@@ -12,6 +13,7 @@ export default function LandingPage() {
       <Family />
       <Achievement />
       <Program />
+      <Countdown />
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function ProgramCard({ title, subtitle, imageUrl, link }) {
         href={link}
         target="_blank"
         rel="noreferrer"
-        className="block w-full py-2.5 bg-[#ED1B24] text-white text-center rounded-[999px]"
+        className="block w-full py-2.5 bg-[#ED1B24] text-white text-center rounded-full"
       >
         Selengkapnya
       </a>
