@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 export default function Achievement() {
   return (
-    <div className="container w-4/5 mx-auto mt-10 md:w-5/6">
+    <div className="container w-4/5 mx-auto mt-10 md:w-5/6 md:mt-20">
       <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
         PRESTASI
       </h1>
