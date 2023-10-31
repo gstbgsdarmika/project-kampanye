@@ -16,7 +16,7 @@ export default function Profile() {
                     PROFILE
                     </h1>
                 </div>
-                    <p className=" text-black md:text-[44px] text-2xl font-bold mt-4">
+                    <p className=" text-black md:text-[44px] md:leading-[50px] text-2xl font-bold mt-4">
                         Anak Agung Gede Agung 
                         Suyoga, S.H., M.Kn
                     </p>
@@ -29,7 +29,7 @@ export default function Profile() {
                     Dalam visi dan misinya, beliau menekankan pentingnya membangun fondasi yang kuat untuk masyarakat yang harmonis dan saling mendukung.
                     </p>
                 </div>
-                <div className="mx-auto my-0">
+                <div className="mx-auto py-20 my-0">
                     <img src={profile} alt="Hero Image" />
                 </div>
             </div>

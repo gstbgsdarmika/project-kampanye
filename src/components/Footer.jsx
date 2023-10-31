@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="bg-white">
             <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="self-center text-2xl whitespace-nowrap text-black font-bold">Relawan Agung Suyoga</span>
+                    <span className="self-center text-2xl whitespace-nowrap text-black font-bold">Relawan <span className="text-[#ED1B24]">Agung Suyoga</span></span>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
                             <a href="#" className="mr-4 hover:underline md:mr-6 ">Beranda</a>

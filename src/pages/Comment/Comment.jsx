@@ -1,5 +1,6 @@
 import React from "react";
 import Img from "../../assets/image/bgComment.png";
+import Send from "../../assets/image/Send.png";
 import Input from "../../components/InputField";
 
 export default function Comment() {
@@ -39,9 +40,9 @@ export default function Comment() {
             *Keamanan data Anda terjamin. Kami tidak akan memberikan data Anda ke pihak manapun
             </p>
             <div className="mt-[61px]">
-                <button className="flex w-[275px] justify-center items-center py-2.5 bg-[#ED1B24] text-white text-center rounded-full ">
+                <button className="flex w-[275px] justify-center gap-2 items-center py-2.5 bg-[#ED1B24] text-white text-center rounded-full ">
                     Kirim
-                    <span className="ml-2"> = </span>
+                    <img className="h-4" src={Send} alt="Icon Send" />
                 </button>
             </div>
         </div>
