@@ -6,6 +6,7 @@ import Profile from "./Profile/Profile";
 import Family from "./Family/Family";
 import Countdown from "./Countdown/Countdown";
 import Testimonials from "./Testimonials/Testimonials";
+import Blog from "./Blog/Blog";
 
 export default function LandingPage() {
   return (
@@ -16,6 +17,7 @@ export default function LandingPage() {
       <NavbarSimple />
       <Achievement />
       <Program />
+      <Blog />
       <Countdown />
       <Testimonials />
     </div>
