@@ -8,6 +8,7 @@ import Countdown from "./Countdown/Countdown";
 import Testimonials from "./Testimonials/Testimonials";
 import Blog from "./Blog/Blog";
 import Gallery from "./Gallery/Gallery";
+import Discussion from "./Discussion/Discussion";
 
 export default function LandingPage() {
   return (
@@ -21,6 +22,7 @@ export default function LandingPage() {
       <Blog />
       <Countdown />
       <Gallery />
+      <Discussion />
       <Testimonials />
     </div>
   );
