@@ -14,15 +14,15 @@ export default function Program() {
 
   return (
     <div className="bg-no-repeat md:mt-20" style={programBg}>
-      <div className="flex justify-center md: pt-28">
+      <div className="flex justify-center md:pt-28 pt-16">
         <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
           PROGRAM
         </h1>
       </div>
-      <p className="text-center text-black md:text-[44px] text-2xl font-bold mt-4 md:mt-5">
+      <p className="text-center text-black md:text-[44px] text-xl font-bold mt-4 md:mt-5">
         Menuju Denpasar yang Lebih Baik
       </p>
-      <div className="container grid grid-cols-1 gap-8 mx-auto md:mt-[76px] mb-5 md:grid-cols-3 md:w-5/6">
+      <div className="container grid grid-cols-1 gap-8 mx-auto md:mt-[76px] mb-5 md:grid-cols-3 md:w-5/6 md:pb-36 mt-10 pb-16">
         <ProgramCard
           title="Pendidikan Unggul"
           subtitle="Fokus pada peningkatan kualitas pendidikan dengan menyesuaikan kurikulum dan memastikan akses setara bagi semua."
