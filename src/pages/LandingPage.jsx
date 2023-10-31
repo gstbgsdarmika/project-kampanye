@@ -7,6 +7,7 @@ import Family from "./Family/Family";
 import Countdown from "./Countdown/Countdown";
 import Testimonials from "./Testimonials/Testimonials";
 import Blog from "./Blog/Blog";
+import Gallery from "./Gallery/Gallery";
 
 export default function LandingPage() {
   return (
@@ -19,6 +20,7 @@ export default function LandingPage() {
       <Program />
       <Blog />
       <Countdown />
+      <Gallery />
       <Testimonials />
     </div>
   );
