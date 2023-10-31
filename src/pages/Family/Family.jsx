@@ -11,11 +11,11 @@ export default function Family() {
       };
     
       return (
-        <div className="container flex w-4/5 mx-auto mt-10 md:w-5/6" style={bgFamily}>
+        <div className="container mx-auto flex mt-10 md:w-5/6" style={bgFamily}>
             <div className="mx-auto my-0">
                     <img src={family} alt="Hero Image" />
             </div>
-            <div className="flex flex-col justify-center pt-10 pb-10 w-6/12">
+            <div className="flex flex-col justify-center pt-10 pb-10">
                 <div className="w-full">
                     <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
                     HUBUNGAN & HARMONIS
