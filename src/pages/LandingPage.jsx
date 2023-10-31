@@ -9,6 +9,7 @@ import Testimonials from "./Testimonials/Testimonials";
 import Blog from "./Blog/Blog";
 import Gallery from "./Gallery/Gallery";
 import Discussion from "./Discussion/Discussion";
+import Comment from "./Comment/Comment";
 
 export default function LandingPage() {
   return (
@@ -24,6 +25,7 @@ export default function LandingPage() {
       <Gallery />
       <Discussion />
       <Testimonials />
+      <Comment />
     </div>
   );
 }
