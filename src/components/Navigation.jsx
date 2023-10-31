@@ -82,7 +82,7 @@ export function NavbarSimple() {
   }, []);
 
   return (
-    <Navbar className="fixed inset-x-0 top-0 z-50 max-w-screen-xl px-5 py-3 mx-auto bg-white md:px-20">
+    <Navbar className="fixed inset-x-0 top-0 z-50 px-5 py-3 mx-auto bg-white md:px-20">
       <div className="flex items-center justify-between">
         <div className="flex items-center justify-center md:gap-3">
           <img src={logo} alt="Logo PDI Perjuangan" />
