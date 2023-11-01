@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/PDI Perjuangan Logo.svg";
+import logo from "../assets/logo.svg";
 import {
   Navbar,
   Collapse,
@@ -31,7 +31,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#profile"
           className="flex items-center justify-center md:justify-start  font-semibold text-black border-b-0 text-lg hover:border-b-2 hover:border-[#ED1B24] transition-all"
         >
           Profil
@@ -44,7 +44,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#blog"
           className="flex items-center justify-center md:justify-start font-semibold text-black border-b-0 text-lg hover:border-b-2 hover:border-[#ED1B24] transition-all"
         >
           Blog
@@ -57,7 +57,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#gallery"
           className="flex items-center justify-center md:justify-start font-semibold text-black border-b-0 text-lg hover:border-b-2 hover:border-[#ED1B24] transition-all"
         >
           Galeri
@@ -67,7 +67,7 @@ function NavList() {
   );
 }
 
-export function NavbarSimple() {
+export function Navigation() {
   const [openNav, setOpenNav] = React.useState(false);
 
   const handleWindowResize = () =>
