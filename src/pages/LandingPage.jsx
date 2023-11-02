@@ -1,4 +1,4 @@
-import { NavbarSimple } from "../components/Navigation";
+import { Navigation } from "../components/Navigation";
 import Footer from "../components/Footer";
 import Achievement from "./Achievement/Achievement";
 import Program from "./Program/Program";
@@ -12,14 +12,13 @@ import Gallery from "./Gallery/Gallery";
 import Discussion from "./Discussion/Discussion";
 import Comment from "./Comment/Comment";
 
-
 export default function LandingPage() {
   return (
     <div className="LandingPage">
       <Hero />
       <Profile />
       <Family />
-      <NavbarSimple />
+      <Navigation />
       <Achievement />
       <Program />
       <Blog />

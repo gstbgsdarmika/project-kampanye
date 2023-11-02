@@ -9,11 +9,11 @@ import "swiper/css/navigation";
 
 export default function Achievement() {
   return (
-    <div className="container w-4/5 mx-auto mt-10 md:w-5/6 md:mt-20">
+    <div className="w-11/12 mx-auto mt-10 md:container md:w-5/6 md:mt-20">
       <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
         PRESTASI
       </h1>
-      <p className="text-black md:text-[44px] text-2xl font-bold mt-4 leading-10">
+      <p className="text-black md:text-[44px] text-2xl font-bold mt-4 md:leading-10">
         Mengukir Jejak Prestasi yang Menginspirasi
       </p>
       <p className="mt-3 text-sm font-normal text-justify text-black md:text-lg md:max-w-[876px]">
@@ -24,13 +24,25 @@ export default function Achievement() {
         untuk meraih yang terbaik.
       </p>
       <Swiper
-        modules={[Navigation]}
-        spaceBetween={40}
-        slidesPerView={2}
-        navigation
-        className="grid grid-cols-2 gap-8 mt-4"
+        slidesPerView={1}
+        spaceBetween={10}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+          },
+        }}
+        className="my-10 mt-10 md:grid-cols-2"
       >
-        <SwiperSlide className="none">
+        <SwiperSlide>
           <AchievementCard
             title="Juara 1 Bagus Klungkung 2015"
             subtitle="Tingkat Kabupaten"
@@ -39,14 +51,14 @@ export default function Achievement() {
         </SwiperSlide>
         <SwiperSlide>
           <AchievementCard
-            title="Juara 2 Bagus Klungkung 2015"
+            title="Juara 1 Bagus Klungkung 2015"
             subtitle="Tingkat Kabupaten"
             imageUrl={ImgAchievement}
           />
         </SwiperSlide>
         <SwiperSlide>
           <AchievementCard
-            title="Juara 3 Bagus Klungkung 2015"
+            title="Juara 1 Bagus Klungkung 2015"
             subtitle="Tingkat Kabupaten"
             imageUrl={ImgAchievement}
           />

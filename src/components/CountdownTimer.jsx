@@ -20,7 +20,7 @@ const ExpiredNotice = () => {
 
 const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
-    <div className="flex items-center text-center gap-x-6 md:gap-x-16">
+    <div className="flex items-center text-center gap-x-5 md:gap-x-16">
       <DateTimeDisplay value={days} type={"Hari"} isDanger={false} />
       <img className="h-20 md:h-full" src={Line} />
       <DateTimeDisplay value={hours} type={"Jam"} isDanger={false} />

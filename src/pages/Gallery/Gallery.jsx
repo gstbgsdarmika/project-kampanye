@@ -21,39 +21,39 @@ export default function Gallery() {
           <p className="text-black text-center md:text-[44px] text-2xl font-bold mt-4 leading-10">
           Komitmen dan Pemimpin Bergerak
         </p>
-        </div>
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-4 mt-[74px]">
-          <GalleryCard
-            date="Senin, 20 September 2023"
-            description="Dialog Bersama"
-            imageUrl={ImgBlog}
-          />
-          <GalleryCard
-            date="Senin, 20 September 2023"
-            description="Dialog Sendiri"
-            imageUrl={ImgBlog}
-          />
-          <GalleryCard
-            date="Senin, 20 September 2023"
-            description="Dialog Sendiri"
-            imageUrl={ImgBlog}
-          />
-          <GalleryCard
-            date="Senin, 20 September 2023"
-            description="Dialog Sendiri"
-            imageUrl={ImgBlog}
-          />
-          <GalleryCard
-            date="Senin, 20 September 2023"
-            description="Dialog Sendiri"
-            imageUrl={ImgBlog}
-          />
-          <GalleryCard
-            date="Senin, 20 September 2023"
-            description="Dialog Sendiri"
-            imageUrl={ImgBlog}
-          />
-        </div>
+      </div>
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-4 mt-[74px]">
+        <GalleryCard
+          date="Senin, 20 September 2023"
+          description="Dialog Bersama"
+          imageUrl={ImgBlog}
+        />
+        <GalleryCard
+          date="Senin, 20 September 2023"
+          description="Dialog Sendiri"
+          imageUrl={ImgBlog}
+        />
+        <GalleryCard
+          date="Senin, 20 September 2023"
+          description="Dialog Sendiri"
+          imageUrl={ImgBlog}
+        />
+        <GalleryCard
+          date="Senin, 20 September 2023"
+          description="Dialog Sendiri"
+          imageUrl={ImgBlog}
+        />
+        <GalleryCard
+          date="Senin, 20 September 2023"
+          description="Dialog Sendiri"
+          imageUrl={ImgBlog}
+        />
+        <GalleryCard
+          date="Senin, 20 September 2023"
+          description="Dialog Sendiri"
+          imageUrl={ImgBlog}
+        />
+      </div>
     </div>
     </div>
   );
