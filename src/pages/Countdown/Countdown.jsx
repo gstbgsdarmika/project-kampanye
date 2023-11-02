@@ -14,20 +14,20 @@ export default function Countdown() {
 
   return (
     <div className="bg-no-repeat md:mt-20" style={programBg}>
-      <div className="pt-10 pb-10 bg-white bg-opacity-60 md:py-20">
+      <div className="py-10 bg-white bg-opacity-60 md:py-20">
         <div className="flex justify-center">
           <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
             MENUJU PEMILIHAN
           </h1>
         </div>
-        <p className="text-center text-black md:text-[44px] text-2xl font-bold mt-7 leading-[50px]">
+        <p className="text-center text-black md:text-[44px] text-2xl font-bold md:mt-7 mt-4 leading-[50px]">
           Calon DPRD Kota Denpasar
         </p>
-        <div className="grid p-10 mx-3 mt-8 mb-5 md:container md:mx-auto md:mt-16 place-items-center md:p-14 md:grid-cols-9 md:w-5/6 rounded-3xl bg-gradient-to-b from-white via-white to-transparent">
+        <div className="grid w-11/12 gap-2 p-5 mx-auto mt-4 mb-5 rounded-lg md:gap-11 md:container md:mt-16 place-items-center md:p-14 md:grid-cols-9 md:w-5/6 md:rounded-3xl bg-gradient-to-b from-white via-white to-transparent">
           <div className="col-span-9">
             <CountdownTimer targetDate={targetDate} />
           </div>
-          <div className="col-span-9 my-5 md:px-20 md:my-11">
+          <div className="col-span-9 px-0 py-5 md:px-20 md:py-11">
             <p className="text-sm font-normal leading-6 text-center text-black md:text-base md:leading-7 ">
               Setiap suara memiliki kekuatan luar biasa. Suara Anda bukan hanya
               sekadar suara, tetapi juga alat perubahan. Jangan lewatkan
