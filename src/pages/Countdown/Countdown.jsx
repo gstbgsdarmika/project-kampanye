@@ -1,17 +1,17 @@
 import React from "react";
 import CountdownTimer from "../../components/CountdownTimer";
 import Img from "../../assets/image/bgCountdown.png";
+import CalendarButton from "../../components/CalendarButton";
 
 export default function Countdown() {
-  const THREE_DAYS_IN_MS = 1 * 1 * 60 * 60 * 1000;
-  const NOW_IN_MS = new Date().getTime();
-  const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
+  const targetDate = new Date("2024-02-14T07:00:00+08:00");
 
   const programBg = {
     backgroundImage: `url(${Img})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   };
+
   return (
     <div className="bg-no-repeat md:mt-20" style={programBg}>
       <div className="pt-10 pb-10 bg-white bg-opacity-60 md:py-20">
@@ -25,7 +25,7 @@ export default function Countdown() {
         </p>
         <div className="grid p-10 mx-3 mt-8 mb-5 md:container md:mx-auto md:mt-16 place-items-center md:p-14 md:grid-cols-9 md:w-5/6 rounded-3xl bg-gradient-to-b from-white via-white to-transparent">
           <div className="col-span-9">
-            <CountdownTimer targetDate={dateTimeAfterThreeDays} />
+            <CountdownTimer targetDate={targetDate} />
           </div>
           <div className="col-span-9 my-5 md:px-20 md:my-11">
             <p className="text-sm font-normal leading-6 text-center text-black md:text-base md:leading-7 ">
@@ -36,13 +36,7 @@ export default function Countdown() {
             </p>
           </div>
           <div className="col-span-9">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              className="block w-[231px] py-2.5 bg-[#ED1B24] text-white text-center rounded-full"
-            >
-              Ingatkan Saya
-            </a>
+            <CalendarButton targetDate={targetDate} />
           </div>
         </div>
       </div>
