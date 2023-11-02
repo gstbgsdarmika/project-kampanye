@@ -32,7 +32,7 @@ export default function CalendarButton() {
   return (
     <button
       onClick={addToGoogleCalendar}
-      className="block w-[231px] py-2.5 bg-[#ED1B24] text-white text-center rounded-full"
+      className="w-[231px] md:py-2.5 py-3 bg-[#C73027] text-white text-center md:text-[22px] text-[19.266px] rounded-full"
     >
       Ingatkan Saya
     </button>
