@@ -11,10 +11,10 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-no-repeat" style={heroBg}>
-      <div className="container mx-auto mt-10 md:w-5/6">
-        <div className="flex">
-          <div className="w-6/12 flex flex-col justify-center pt-10 pb-10">
+    <div className="bg-no-repeat flex items-center" style={heroBg}>
+      <div className="container w-4/5 mx-auto mt-10 md:w-5/6">
+        <div className="flex flex-col md:flex-row">
+          <div className="w-full md:w-6/12 flex flex-col justify-center pt-20 md:pt-10 md:pb-10">
             <div className="w-full">
               <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
                 PELAYAN RAKYAT
@@ -28,8 +28,8 @@ const Hero = () => {
               mari maju demi Bali yang lebih baik lagi untuk kita semua!.
             </p>
           </div>
-          <div className="mx-auto py-20 my-0">
-            <img src={heroImg} alt="Hero Image" />
+          <div className="mx-auto py-10 md:py-20 my-0">
+            <img src={heroImg} alt="Hero Image" className="w-full md:w-auto" />
           </div>
         </div>
       </div>

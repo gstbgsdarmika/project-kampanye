@@ -1,16 +1,24 @@
 import GalleryCard from "../../components/GalleryCard";
 import ImgBlog from "../../assets/image/blogcard.png";
+import galleryImg from "../../assets/image/bgGallery.png";
 
 export default function Gallery() {
+  const bgGallery = {
+    backgroundImage: `url(${galleryImg})`,
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+  };
+
   return (
-    <div className="container w-4/5 mx-auto my-10 md:w-5/6 md:my-20">
+    <div style={bgGallery}>
+        <div className="container w-4/5 mx-auto py-10 md:py-20 md:w-5/6 ">
     <div className="flex justify-center">
       <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
           Gallery
         </h1>
     </div>
         <div className="flex justify-center items-center">
-          <p className="text-black md:text-[44px] text-2xl font-bold mt-4 leading-10">
+          <p className="text-black text-center md:text-[44px] text-2xl font-bold mt-4 leading-10">
           Komitmen dan Pemimpin Bergerak
         </p>
         </div>
@@ -46,6 +54,7 @@ export default function Gallery() {
             imageUrl={ImgBlog}
           />
         </div>
+    </div>
     </div>
   );
 }
