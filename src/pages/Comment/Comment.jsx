@@ -26,7 +26,7 @@ export default function Comment() {
             <Input placeholder="Nama" />
             <Input placeholder="Email" />
           </div>
-          <div className="w-full md:w-[560px] h-[155px] mt-4 px-4 md:mt-0">
+          <div className="w-full md:w-[560px] h-[155px] px-4">
             <div className="bg-white h-full rounded-[24px] shadow-md px-4 py-6 mb-4">
               <textarea
                 className="w-full h-full text-gray-700 bg-transparent border-none outline-none placeholder-gray-400 resize-none"
