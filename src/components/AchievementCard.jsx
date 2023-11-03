@@ -1,6 +1,6 @@
 export default function AchievementCard({ title, subtitle, imageUrl }) {
   return (
-    <div className="grid grid-cols-5 md:gap-3 gap-2 border border-neutral-colors-color-600 border-solid md:rounded-[20px] rounded-lg">
+    <div className="grid grid-cols-5 shadow-[0px_8px_28px_0px_rgba(20,20,43,0.10)] md:gap-3 gap-2 border border-neutral-colors-color-600 border-solid md:rounded-[20px] rounded-lg">
       <div className="col-span-3">
         <img
           className="object-cover w-full h-full rounded-tl-lg rounded-bl-lg md:rounded-tl-[20px] md:rounded-bl-[20px]"

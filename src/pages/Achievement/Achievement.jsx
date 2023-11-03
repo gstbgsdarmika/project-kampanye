@@ -39,7 +39,7 @@ export default function Achievement() {
             spaceBetween: 50,
           },
         }}
-        className="my-10 mt-10"
+        className="my-10 mt-10 rounded-2xl bg-transparent"
       >
         <SwiperSlide>
           <AchievementCard
