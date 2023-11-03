@@ -19,7 +19,7 @@ export default function TestimonialsCard({
         </div>
         <div className="gap-x-2 md:gap-x-5">
           <p className="text-base font-bold text-black md:text-xl">{name}</p>
-          <p className="text-[#979797] text-sm md:text-base">{subtitle}</p>
+          <p className="text-[#5D5A88] text-sm md:text-base">{subtitle}</p>
         </div>
       </div>
     </div>

@@ -11,8 +11,8 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-no-repeat flex items-center" style={heroBg}>
-      <div className="container w-4/5 mx-auto mt-10 md:w-5/6">
+    <div className="bg-no-repeat flex flex-col items-center" style={heroBg}>
+      <div className="w-11/12 md:container mx-auto mt-10 md:w-5/6">
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-6/12 flex flex-col justify-center pt-20 md:pt-10 md:pb-10">
             <div className="w-full">
@@ -34,7 +34,11 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <div className="md:absolute pt-10 md:pt-0 inset-x-0 bottom-0 h-16">
+        <img src={bannerImg} alt="Banner Image" className="w-full object-cover" />
+      </div>
     </div>
+
   );
 };
 

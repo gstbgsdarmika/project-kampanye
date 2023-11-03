@@ -12,7 +12,7 @@ export default function AchievementCard({ title, subtitle, imageUrl }) {
         <p className="text-[15.056px] font-bold text-left text-black md:text-2xl">
           {title}
         </p>
-        <p className="mt-2 text-[9.679px] text-left text-red-600 md:text-lg">
+        <p className="mt-2 text-[12px] text-left text-red-600 md:text-lg">
           {subtitle}
         </p>
       </div>

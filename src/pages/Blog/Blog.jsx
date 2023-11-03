@@ -9,19 +9,19 @@ import "swiper/css/navigation";
 
 export default function Blog() {
   return (
-    <div className="container w-4/5 mx-auto md:w-5/6 py-20">
-    <div className="flex justify-end">
-      <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
+    <div className="mx-auto py-20">
+    <div className="flex justify-end pe-10 md:pe-[140px]">
+      <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block ">
           Blog
         </h1>
     </div>
         <div className="flex items-center">
           <div className="w-full h-[5px] bg-[#ED1B24]"></div>
-          <p className="w-full text-right text-black md:text-[44px] text-2xl font-bold mt-4 leading-10">
+          <p className="w-full text-right text-black md:text-[44px] text-2xl font-bold mt-4 leading-10 pe-10 md:pe-[140px]">
           Sedikit Cerita dari Kami
         </p>
         </div>
-        <div className="container w-4/5 mx-auto md:w-5/6">
+        <div className="w-11/12 md:container mx-auto md:w-5/6">
         <Swiper
         slidesPerView={1}
         spaceBetween={10}
