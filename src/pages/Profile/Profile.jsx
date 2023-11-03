@@ -9,7 +9,7 @@ export default function Profile() {
   return (
     <div className="w-11/12 md:container mx-auto pt-10 md:pt-52 md:w-5/6">
       <div className="flex flex-col md:flex-row">
-        <div className="w-full md:w-6/12 flex flex-col justify-center pt-10 pb-10">
+        <div className="w-full  md:w-6/12 flex flex-col justify-center pt-10 pb-10">
           <div className="w-full">
             <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
               PROFILE
@@ -22,9 +22,12 @@ export default function Profile() {
             “Aku hanya pelayan rakyat”
           </p>
           <p className="mt-3 text-sm font-normal text-justify text-black md:text-lg md:max-w-[876px]">
-            Seorang kandidat yang memiliki dedikasi tinggi dalam melayani masyarakat. Gede Agung Suyoga dikenal sebagai individu
-            yang berkomitmen pada nilai-nilai keadilan, kebersamaan, dan keterbukaan. Dalam visi dan misinya, beliau menekankan
-            pentingnya membangun fondasi yang kuat untuk masyarakat yang harmonis dan saling mendukung.
+            Seorang kandidat yang memiliki dedikasi tinggi dalam melayani
+            masyarakat. Gede Agung Suyoga dikenal sebagai individu yang
+            berkomitmen pada nilai-nilai keadilan, kebersamaan, dan keterbukaan.
+            Dalam visi dan misinya, beliau menekankan pentingnya membangun
+            fondasi yang kuat untuk masyarakat yang harmonis dan saling
+            mendukung.
           </p>
         </div>
         <div className="mx-auto md:py-20 my-0">

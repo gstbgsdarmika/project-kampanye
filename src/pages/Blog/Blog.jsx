@@ -23,47 +23,47 @@ export default function Blog() {
         </div>
         <div className="w-11/12 md:container mx-auto md:w-5/6">
         <Swiper
-        slidesPerView={1}
-        spaceBetween={10}
-        breakpoints={{
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-          },
-          768: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          1024: {
-            slidesPerView: 2,
-            spaceBetween: 50,
-          },
-        }}
-        className="my-10 mt-10 md:grid-cols-2"
-      >
-        <SwiperSlide>
-        <BlogCard
-            date="Senin, 20 September 2023"
-            description="Anggota Termuda DPRD Bali, Agung Suyoga Janji Perjuangkan Generasinya"
-            imageUrl={ImgBlog}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-        <BlogCard
-            date="Senin, 20 September 2023"
-            description="Anggota Termuda DPRD Bali, Agung Suyoga Janji Perjuangkan Generasinya"
-            imageUrl={ImgBlog}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-        <BlogCard
-            date="Senin, 20 September 2023"
-            description="Anggota Termuda DPRD Bali, Agung Suyoga Janji Perjuangkan Generasinya"
-            imageUrl={ImgBlog}
-          />
-        </SwiperSlide>
-      </Swiper>
-        </div>
+          slidesPerView={1}
+          spaceBetween={10}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 10,
+            },
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            1024: {
+              slidesPerView: 2,
+              spaceBetween: 50,
+            },
+          }}
+          className="my-10 mt-10 md:grid-cols-2"
+        >
+          <SwiperSlide>
+            <BlogCard
+              date="Senin, 20 September 2023"
+              description="Anggota Termuda DPRD Bali, Agung Suyoga Janji Perjuangkan Generasinya"
+              imageUrl={ImgBlog}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <BlogCard
+              date="Senin, 20 September 2023"
+              description="Anggota Termuda DPRD Bali, Agung Suyoga Janji Perjuangkan Generasinya"
+              imageUrl={ImgBlog}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <BlogCard
+              date="Senin, 20 September 2023"
+              description="Anggota Termuda DPRD Bali, Agung Suyoga Janji Perjuangkan Generasinya"
+              imageUrl={ImgBlog}
+            />
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </div>
   );
 }

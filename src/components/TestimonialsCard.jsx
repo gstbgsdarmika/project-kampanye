@@ -5,7 +5,7 @@ export default function TestimonialsCard({
   subtitle,
 }) {
   return (
-    <div className="px-3 bg-white  shadow-[0px_24px_65px_0px_rgba(20,20,43,0.16)] p-4 rounded-2xl">
+    <div className="grid gap-2 p-4 bg-white border border-solid shadow-sm border-neutral-colors-color-600 grid-col-3 md:gap-3 rounded-2xl">
       <p className="text-[#5D5A88] text-sm md:text-base leading-[30px]">
         {testimonials}
       </p>

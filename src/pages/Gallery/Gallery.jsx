@@ -1,5 +1,4 @@
 import GalleryCard from "../../components/GalleryCard";
-import ImgBlog from "../../assets/image/blogcard.png";
 import galleryImg from "../../assets/image/bgGallery.png";
 
 export default function Gallery() {
@@ -10,51 +9,24 @@ export default function Gallery() {
   };
 
   return (
-    <div style={bgGallery}>
-        <div className="container w-4/5 mx-auto py-10 md:py-20 md:w-5/6 ">
-    <div className="flex justify-center">
-      <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
-          Gallery
-        </h1>
-    </div>
-        <div className="flex justify-center items-center">
-          <p className="text-black text-center md:text-[44px] text-2xl font-bold mt-4 leading-10">
+    <div
+      id="gallery"
+      className="bg-no-repeat bg-cover md:scroll-my-28 scroll-my-24"
+      style={bgGallery}
+    >
+      <div className="md:w-5/6 container w-11/12 mx-auto md:py-20 py-10">
+        <div className="flex justify-center">
+          <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
+            GALERI
+          </h1>
+        </div>
+        <p className="text-center text-black md:text-[44px] text-xl font-bold mt-4 md:mt-5">
           Komitmen dan Pemimpin Bergerak
         </p>
+        <div className="py-5">
+          <GalleryCard />
+        </div>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-4 mt-[74px]">
-        <GalleryCard
-          date="Senin, 20 September 2023"
-          description="Dialog Bersama"
-          imageUrl={ImgBlog}
-        />
-        <GalleryCard
-          date="Senin, 20 September 2023"
-          description="Dialog Sendiri"
-          imageUrl={ImgBlog}
-        />
-        <GalleryCard
-          date="Senin, 20 September 2023"
-          description="Dialog Sendiri"
-          imageUrl={ImgBlog}
-        />
-        <GalleryCard
-          date="Senin, 20 September 2023"
-          description="Dialog Sendiri"
-          imageUrl={ImgBlog}
-        />
-        <GalleryCard
-          date="Senin, 20 September 2023"
-          description="Dialog Sendiri"
-          imageUrl={ImgBlog}
-        />
-        <GalleryCard
-          date="Senin, 20 September 2023"
-          description="Dialog Sendiri"
-          imageUrl={ImgBlog}
-        />
-      </div>
-    </div>
     </div>
   );
 }
