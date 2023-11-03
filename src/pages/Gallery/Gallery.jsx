@@ -11,7 +11,7 @@ export default function Gallery() {
   return (
     <div
       id="gallery"
-      className="bg-no-repeat bg-cover md:scroll-my-28 scroll-my-24"
+      className="bg-no-repeat bg-cover scroll-mt-14"
       style={bgGallery}
     >
       <div className="md:w-5/6 container w-11/12 mx-auto md:py-20 py-10">
