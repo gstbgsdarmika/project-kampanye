@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import family from "../../assets/image/family.png";
 import discussionBg from "../../assets/image/bgdiscussion.png";
 
@@ -9,10 +9,20 @@ export default function Discussion() {
     backgroundSize: "cover",
   };
 
+  const [showVideo, setShowVideo] = useState(false);
+
+  useEffect(() => {
+    // You can set `showVideo` to `true` after a certain event or delay
+    // For example, you can use a button click or a timer
+    // For this example, we will set it to true immediately
+    setShowVideo(true);
+  }, []);
+  
+
   return (
     <div className="bg-no-repeat flex items-center" style={bgDiscussion}>
-      <div className="container w-4/5 mx-auto mt-10 md:w-5/6">
-        <div className="flex flex-col md:flex-row">
+      <div className="w-11/12 md:container mx-auto mt-10 md:w-5/6">
+        <div className="flex flex-col md:flex-row justify-between">
           <div className="w-full md:w-6/12 flex flex-col justify-center pt-10 pb-10">
             <div className="w-full">
               <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
@@ -26,8 +36,8 @@ export default function Discussion() {
               Saksikan momen dialog dan diskusi yang tulus antara Kandidat dan warga. Video ini membawa Anda ke tengah-tengah interaksi yang otentik, menunjukkan kesediaan mereka untuk mendengarkan dan merespons kebutuhan masyarakat.
             </p>
           </div>
-          <div className="mx-auto md:py-20 my-0">
-            <img src={family} alt="Discussion Image" className="w-full md:w-auto" />
+          <div className="pb-10 md:py-20">
+            <img src={family} alt="Family Image" className="w-full md:w-auto rounded-2xl shadow" />
           </div>
         </div>
       </div>

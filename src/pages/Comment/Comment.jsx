@@ -1,13 +1,27 @@
-import React from "react";
-import Img from "../../assets/image/bgComment.png";
-import Send from "../../assets/image/Send.png";
-import Input from "../../components/InputField";
+import React from 'react';
+import Img from '../../assets/image/bgComment.png';
+import Send from '../../assets/image/Send.png';
+import Input from '../../components/InputField';
+import Swal from 'sweetalert2';
 
 export default function Comment() {
   const commentBg = {
     backgroundImage: `url(${Img})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Perform any additional actions like sending data to a server
+
+    Swal.fire({
+      title: 'Terima kasih!',
+      text: 'Pesan dukunganmu telah terkirim.',
+      icon: 'success',
+      confirmButtonText: 'OK',
+    });
   };
 
   return (
@@ -22,7 +36,7 @@ export default function Comment() {
           Tinggalkan Pesan Terbaikmu!
         </p>
         <div className="flex flex-col md:flex-row justify-center mt-[58px]">
-          <div className=" w-full px-4 md:w-[560px]">
+          <div className="w-full px-4 md:w-[560px]">
             <Input placeholder="Nama" />
             <Input placeholder="Email" />
           </div>
@@ -40,10 +54,15 @@ export default function Comment() {
             *Keamanan data Anda terjamin. Kami tidak akan memberikan data Anda ke pihak manapun
           </p>
           <div className="mt-[61px]">
-            <button className="flex w-[275px] justify-center gap-2 items-center py-2.5 bg-[#ED1B24] text-white text-center rounded-full ">
-              Kirim
-              <img className="h-4" src={Send} alt="Icon Send" />
-            </button>
+            <form onSubmit={handleSubmit}>
+              <button
+                type="submit"
+                className="flex w-[275px] justify-center gap-2 items-center py-2.5 bg-[#ED1B24] text-white text-center rounded-full"
+              >
+                Kirim
+                <img className="h-4" src={Send} alt="Icon Send" />
+              </button>
+            </form>
           </div>
         </div>
       </div>
