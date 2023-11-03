@@ -18,22 +18,30 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="mr-2 sm:mr-4 hover:underline md:mr-6">
+              <a
+                href="#profile"
+                className="mr-2 sm:mr-4 hover:underline md:mr-6"
+              >
                 Profil
               </a>
             </li>
             <li>
-              <a href="#" className="mr-2 sm:mr-4 hover:underline md:mr-6">
+              <a
+                href="#program"
+                className="mr-2 sm:mr-4 hover:underline md:mr-6"
+              >
                 Program
               </a>
             </li>
             <li>
-              <a href="#" className="mr-2 sm:mr-4 hover:underline md:mr-6">
-                Galeri
+              <a href="#blog" className="mr-2 sm:mr-4 hover:underline md:mr-6">
+                Blog
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">Blog</a>
+              <a href="#gallery" className="hover:underline">
+                Galeri
+              </a>
             </li>
           </ul>
           <div className="flex gap-4 justify-center py-4 sm:py-0 sm:mb-0">
