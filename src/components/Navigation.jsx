@@ -44,6 +44,19 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
+          href="#program"
+          className="flex items-center justify-center md:justify-start  font-semibold text-black border-b-0 text-lg hover:border-b-2 hover:border-[#ED1B24] transition-all"
+        >
+          Program
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-medium"
+      >
+        <a
           href="#blog"
           className="flex items-center justify-center md:justify-start font-semibold text-black border-b-0 text-lg hover:border-b-2 hover:border-[#ED1B24] transition-all"
         >
@@ -100,14 +113,14 @@ export function Navigation() {
         </div>
         <IconButton
           variant="text"
-          className="w-6 h-6 ml-auto text-red-500 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="flex items-center w-8 h-8 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
           {openNav ? (
-            <XMarkIcon className="w-6 h-6 text-black" strokeWidth={2} />
+            <XMarkIcon className="w-8 h-8 text-black" strokeWidth={2} />
           ) : (
-            <Bars3Icon className="w-6 h-6 text-black" strokeWidth={2} />
+            <Bars3Icon className="w-8 h-8 text-black" strokeWidth={2} />
           )}
         </IconButton>
       </div>

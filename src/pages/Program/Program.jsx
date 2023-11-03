@@ -24,20 +24,20 @@ export default function Program() {
       </p>
       <div className="container grid grid-cols-1 gap-8 mx-auto md:mt-[76px] mb-5 md:grid-cols-3 md:w-5/6 md:pb-36 mt-10 pb-16">
         <ProgramCard
-          title="Pendidikan Unggul"
-          subtitle="Fokus pada peningkatan kualitas pendidikan dengan menyesuaikan kurikulum dan memastikan akses setara bagi semua."
+          title="Gizi untuk Medis"
+          subtitle="Pendistribusian makanan siap saji kepada tenaga kesehatan di tingkat kecamatan (puskesmas) pada masa COVID-19"
           imageUrl={ImgProgram1}
           link=""
         />
         <ProgramCard
-          title="Sehat Bersama Rakyat"
-          subtitle="Memperkuat infrastruktur kesehatan dan memastikan pelayanan kesehatan yang terjangkau dan berkualitas untuk seluruh komunitas."
+          title="Sidak Kuliner"
+          subtitle="Agenda rutin setiap jam 20.00 malam pada saat PPKM Darurat untuk membeli dagangan UMKM dan didistribusikan kepada Pecalang, Linmas, dan masyarakat umum"
           imageUrl={ImgProgram2}
           link=""
         />
         <ProgramCard
-          title="Ekonomi Digital"
-          subtitle="Mendukung UMKM dan koperasi lokal dengan memberikan pelatihan, sehingga menghasilkan sumber daya dengan potesial digitalisasi."
+          title="Pembuatan NIB"
+          subtitle="Bekerjasama dengan gama law untuk membantu para UMKM membuat Nomor Induk Berusaha"
           imageUrl={ImgProgram3}
           link=""
         />
