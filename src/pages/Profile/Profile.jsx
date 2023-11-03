@@ -7,18 +7,15 @@ import ProgramCard from "../../components/ProgramCard";
 
 export default function Profile() {
   return (
-    <div
-      id="profile"
-      className="container w-4/5 pt-10 mx-auto scroll-my-10 md:w-5/6"
-    >
-      <div className="flex">
-        <div className="flex flex-col justify-center w-6/12 pt-10 pb-10">
+    <div className="container w-4/5 mx-auto mt-10 md:w-5/6">
+      <div className="flex flex-col md:flex-row">
+        <div className="w-full  md:w-6/12 flex flex-col justify-center pt-10 pb-10">
           <div className="w-full">
             <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
               PROFILE
             </h1>
           </div>
-          <p className=" text-black md:text-[44px] md:leading-[50px] text-2xl font-bold mt-4">
+          <p className="text-black md:text-[44px] md:leading-[50px] text-2xl font-bold mt-4">
             Anak Agung Gede Agung Suyoga, S.H., M.Kn
           </p>
           <p className="text-red-600 md:text-[28px] text-2xl font-bold mt-4">
@@ -33,8 +30,8 @@ export default function Profile() {
             mendukung.
           </p>
         </div>
-        <div className="py-20 mx-auto my-0">
-          <img src={profile} alt="Hero Image" />
+        <div className="mx-auto md:py-20 my-0">
+          <img src={profile} alt="Profile Image" className="w-full md:w-auto" />
         </div>
       </div>
     </div>

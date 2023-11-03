@@ -12,8 +12,8 @@ const BlogCard = ({ date, description, imageUrl }) => {
       <div className="w-full h-64" style={cardStyle}></div>
       <div className="absolute inset-0 flex flex-col justify-end p-4 text-white bg-opacity-10 bg-black">
         <div>
-          <p className="text-lg font-bold">{date}</p>
-          <p className="text-2xl font-bold">{description}</p>
+          <p className="md:text-lg font-bold">{date}</p>
+          <p className="md:text-2xl font-bold">{description}</p>
         </div>
       </div>
     </div>

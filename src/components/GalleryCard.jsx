@@ -8,7 +8,7 @@ import img6 from "../assets/image/galeri/6.png";
 
 export default function GalleryCard() {
   return (
-    <div className="mx-auto grid grid-cols-9 justify-center items-center gap-4 md:mt-20 mt-10 bg-blue-500">
+    <div className="mx-auto grid md:grid-cols-9 grid-cols-1 justify-center items-center md:gap-1 md:my-20 gap-4">
       <div className="col-span-3 flex-col mx-auto justify-center items-center md:gap-4 gap-4 flex">
         <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[388.19px] justify-center items-center inline-flex">
           <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[388.19px] relative">
@@ -45,7 +45,7 @@ export default function GalleryCard() {
           </div>
         </div>
       </div>
-      <div className="col-span-3 md:flex-col justify-center items-center md:justify-start md:items-start md:gap-4 gap-4 md:inline-flex">
+      <div className="col-span-3 flex-col mx-auto justify-center items-center md:gap-4 gap-4 flex">
         <div className="w-[324.68px] h-[324.68px] md:w-[388px] md:h-[275.11px] justify-center items-center inline-flex">
           <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[275.11px] relative">
             <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[275.11px] left-0 top-0 absolute bg-slate-50 rounded-[20.91px] md:rounded-[25px]" />
@@ -63,7 +63,7 @@ export default function GalleryCard() {
             </div>
           </div>
         </div>
-        <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501.27px] pb-[0.27px] flex-col justify-center items-center inline-flex">
+        <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501.27px] mb:pb-[0.27px] flex-col justify-center items-center inline-flex">
           <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501px] relative">
             <img
               className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501px] left-0 top-0 absolute md:rounded-[25px] rounded-[20.91px]"
@@ -80,8 +80,8 @@ export default function GalleryCard() {
           </div>
         </div>
       </div>
-      <div className="col-span-3">
-        <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501.27px] md:pb-[0.27px] flex-col justify-center items-center inline-flex">
+      <div className="col-span-3 flex-col mx-auto justify-center items-center md:gap-4 gap-4 flex">
+        <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501.27px] md:mb:pb-[0.27px] flex-col justify-center items-center inline-flex">
           <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501px] relative">
             <img
               className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501px] left-0 top-0 absolute rounded-[20.91px] md:rounded-[25px]"
