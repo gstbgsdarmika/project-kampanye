@@ -11,7 +11,7 @@ export default function Blog() {
   return (
     <div
       id="blog"
-      className="container w-4/5 py-20 mx-auto my-10 md:w-5/6 md:my-20"
+      className="container w-4/5 py-10 mx-auto scroll-my-24 md:w-5/6 md:my-20"
     >
       <div className="flex justify-end">
         <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">

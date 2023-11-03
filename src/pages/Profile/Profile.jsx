@@ -7,7 +7,10 @@ import ProgramCard from "../../components/ProgramCard";
 
 export default function Profile() {
   return (
-    <div id="profile" className="container w-4/5 pt-10 mx-auto md:w-5/6">
+    <div
+      id="profile"
+      className="container w-4/5 pt-10 mx-auto scroll-my-10 md:w-5/6"
+    >
       <div className="flex">
         <div className="flex flex-col justify-center w-6/12 pt-10 pb-10">
           <div className="w-full">
