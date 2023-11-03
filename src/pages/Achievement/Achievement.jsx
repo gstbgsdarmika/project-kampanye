@@ -1,6 +1,5 @@
 import ImgAchievement from "../../assets/image/prestasi.png";
 import AchievementCard from "../../components/AchievementCard";
-import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -40,7 +39,7 @@ export default function Achievement() {
             spaceBetween: 50,
           },
         }}
-        className="my-10 mt-10 md:grid-cols-2"
+        className="my-10 mt-10"
       >
         <SwiperSlide>
           <AchievementCard

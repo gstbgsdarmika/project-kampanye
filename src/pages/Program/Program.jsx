@@ -14,7 +14,7 @@ export default function Program() {
 
   return (
     <div className="bg-no-repeat md:mt-20" style={programBg}>
-      <div className="flex justify-center md:pt-28 pt-16">
+      <div className="flex justify-center pt-16 md:pt-28">
         <h1 className="md:p-2.5 p-1.5 bg-[#ED1B24] text-white md:text-4xl text-2xl font-extrabold inline-block">
           PROGRAM
         </h1>
