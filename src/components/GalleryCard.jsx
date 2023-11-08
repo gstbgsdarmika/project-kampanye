@@ -19,10 +19,10 @@ export default function GalleryCard() {
             />
             <div className="w-[222.48px] h-[62.73px] left-[51.02px] top-[229.01px] md:w-[266px] md:h-[75px] md:left-[61px] md:top-[273.81px] absolute flex-col justify-start items-start gap-[5.85px] md:gap-[7px] inline-flex">
               <div className="self-stretch grow shrink basis-0 text-center text-slate-100 text-xl leading-7 md:text-2xl font-bold md:leading-[34px]">
-                Dialog Bersama
+                Akrab Warga
               </div>
               <div className="self-stretch grow shrink basis-0 text-center text-slate-200 text-[15.06px] font-normal leading-[15.06px] md:text-lg md:leading-[18px]">
-                12 September 2023
+                6 Oktober 2021
               </div>
             </div>
           </div>
@@ -36,10 +36,10 @@ export default function GalleryCard() {
             />
             <div className="w-[222.48px] h-[62.73px] left-[51.02px] top-[229.01px] md:w-[266px] md:h-[75px] md:left-[61px] md:top-[273.81px] absolute flex-col justify-start items-start gap-[5.85px] md:gap-[7px] inline-flex">
               <div className="self-stretch grow shrink basis-0 text-center text-slate-100 text-xl leading-7 md:text-2xl font-bold md:leading-[34px]">
-                Merangkul Perbedaan
+                Dialog Bersama
               </div>
               <div className="self-stretch grow shrink basis-0 text-center text-slate-200 text-[15.06px] font-normal leading-[15.06px] md:text-lg md:leading-[18px]">
-                10 Agustus 2023
+                30 Desember 2022
               </div>
             </div>
           </div>
@@ -55,10 +55,10 @@ export default function GalleryCard() {
             />
             <div className="w-[222.48px] h-[62.73px] left-[51.02px] top-[229.01px] md:w-[180px] md:h-[71px] md:left-[104px] md:top-[162px] absolute flex-col justify-start items-start md:gap-[7px] gap-[5.85px] inline-flex">
               <div className="self-stretch text-center text-slate-100 md:text-2xl font-bold md:leading-[34px] text-xl leading-7">
-                Prestasi Terukir
+                Komitmen Terwujud
               </div>
               <div className="self-stretch text-center text-slate-200 md:text-lg font-normal text-[15.06px] md:leading-[30px] leading-[15.06px]">
-                14 Oktober 2023
+                6 Juli 2023
               </div>
             </div>
           </div>
@@ -71,10 +71,10 @@ export default function GalleryCard() {
             />
             <div className="w-[222.48px] h-[62.73px] md:w-[266px] md:h-[75px] md:left-[61px] md:top-[385px] absolute flex-col md:justify-start md:items-start md:gap-[7px] inline-flex justify-center items-center left-[51.02px] gap-[5.85px] top-[229.01px]">
               <div className="self-stretch grow shrink basis-0 text-center text-slate-100 md:text-2xl font-bold md:leading-[34px] text-xl leading-7">
-                Komitmen Terwujud
+                Masyarakat Bersatu
               </div>
               <div className="self-stretch grow shrink basis-0 text-center text-slate-200 md:text-lg font-normal md:leading-[18px] leading-[15.06px] text-[15.06px]">
-                31 Januari 2023
+                7 September 2023
               </div>
             </div>
           </div>
@@ -89,10 +89,10 @@ export default function GalleryCard() {
             />
             <div className="w-[222.48px] h-[62.73px] md:w-[266px] md:h-[75px] md:left-[61px] md:top-[385px] absolute flex-col md:justify-start md:items-start md:gap-[7px] inline-flex justify-center items-center left-[51.02px] gap-[5.85px] top-[229.01px]">
               <div className="self-stretch grow shrink basis-0 text-center text-slate-100 md:text-2xl font-bold md:leading-[34px] text-xl leading-7">
-                Masyarakat Bersatu
+                Merangkul Perbedaan
               </div>
               <div className="self-stretch grow shrink basis-0 text-center text-slate-200 md:text-lg font-normal md:leading-[18px] leading-[15.06px] text-[15.06px]">
-                28 Mei 2023
+                7 September 2023
               </div>
             </div>
           </div>
@@ -106,10 +106,10 @@ export default function GalleryCard() {
             />
             <div className="w-[222.48px] h-[62.73px] left-[51.02px] top-[229.01px] md:w-[149px] md:h-[71px] md:left-[119.50px] md:top-[162px] absolute flex-col justify-start items-start gap-[7px] inline-flex">
               <div className="self-stretch text-center text-slate-100 md:text-2xl font-bold md:leading-[34px] text-xl leading-7">
-                Akrab Warga
+                Peduli Lingkungan
               </div>
               <div className="self-stretch text-center text-slate-200 md:text-lg font-normal text-[15.06px] md:leading-[30px] leading-[15.06px]">
-                14 Juni 2023
+                2 Nov 2022
               </div>
             </div>
           </div>

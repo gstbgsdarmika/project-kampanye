@@ -1,8 +1,8 @@
 import React from "react";
 import Img from "../../assets/image/bgProgram.png";
-import ImgProgram1 from "../../assets/image/program1.png";
-import ImgProgram2 from "../../assets/image/program2.png";
-import ImgProgram3 from "../../assets/image/program3.png";
+import ImgProgram1 from "../../assets/image/program 1.png";
+import ImgProgram2 from "../../assets/image/program 2.png";
+import ImgProgram3 from "../../assets/image/program 3.png";
 import ProgramCard from "../../components/ProgramCard";
 
 export default function Program() {
@@ -31,19 +31,22 @@ export default function Program() {
           title="Gizi untuk Medis"
           subtitle="Pendistribusian makanan siap saji kepada tenaga kesehatan di tingkat kecamatan (puskesmas) pada masa COVID-19"
           imageUrl={ImgProgram1}
-          link=""
+          link="https://www.instagram.com/p/B_CtA4mAbCR/?
+          utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
         />
         <ProgramCard
           title="Sidak Kuliner"
           subtitle="Agenda rutin setiap jam 20.00 malam pada saat PPKM Darurat untuk membeli dagangan UMKM dan didistribusikan kepada Pecalang, Linmas, dan masyarakat umum"
           imageUrl={ImgProgram2}
-          link=""
+          link="https://www.instagram.com/p/CRlmHEZl15Z/?
+          utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
         />
         <ProgramCard
           title="Pembuatan NIB"
           subtitle="Bekerjasama dengan gama law untuk membantu para UMKM membuat Nomor Induk Berusaha"
           imageUrl={ImgProgram3}
-          link=""
+          link="https://www.instagram.com/reel/Cxz1gKCSmKn/?
+          utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
         />
       </div>
     </div>

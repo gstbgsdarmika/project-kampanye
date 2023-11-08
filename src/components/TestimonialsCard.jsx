@@ -6,7 +6,7 @@ export default function TestimonialsCard({
 }) {
   return (
     <div className="grid gap-2 p-4 bg-white border border-solid shadow-sm border-neutral-colors-color-600 grid-col-3 md:gap-3 rounded-2xl">
-      <p className="text-[#5D5A88] text-sm md:text-base leading-[30px]">
+      <p className="text-[#676363] text-sm md:text-base leading-[30px]">
         {testimonials}
       </p>
       <div className="flex items-center gap-x-2 md:gap-x-4 md:mt-14 mt-7">
@@ -19,7 +19,7 @@ export default function TestimonialsCard({
         </div>
         <div className="gap-x-2 md:gap-x-5">
           <p className="text-base font-bold text-black md:text-xl">{name}</p>
-          <p className="text-[#5D5A88] text-sm md:text-base">{subtitle}</p>
+          <p className="text-[#676363] text-sm md:text-base">{subtitle}</p>
         </div>
       </div>
     </div>

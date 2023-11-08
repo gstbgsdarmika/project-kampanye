@@ -20,7 +20,7 @@ export default function ProgramCard({ title, subtitle, imageUrl, link }) {
         rel="noreferrer"
         className="block w-full md:py-2.5 py-3 bg-[#C73027] text-white text-center md:text-[22px] text-[19.266px] rounded-full"
       >
-        Selengkapnya
+        Telusuri
       </a>
     </div>
   );

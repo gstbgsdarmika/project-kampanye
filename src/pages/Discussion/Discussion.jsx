@@ -43,7 +43,7 @@ export default function Discussion() {
               {showVideo ? (
                 <ReactPlayer
                   className="md:rounded-[25px]"
-                  url="https://youtu.be/900XInzx310?si=HzwOaX_qVwvb43Dq"
+                  url="https://youtu.be/1SOmee_aBHw?si=G8kRKtNUurMmJurB"
                   width="100%"
                   height="100%"
                 />
