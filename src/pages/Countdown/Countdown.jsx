@@ -21,7 +21,7 @@ export default function Countdown() {
           </h1>
         </div>
         <p className="text-center text-black md:text-[44px] text-2xl font-bold md:mt-7 mt-4 leading-[50px]">
-          Calon DPRD Kota Denpasar
+          Calon DPRD Provinsi Bali
         </p>
         <div className="grid w-11/12 gap-2 p-5 mx-auto mt-4 mb-5 rounded-lg md:gap-11 md:container md:mt-16 place-items-center md:p-14 md:grid-cols-9 md:w-5/6 md:rounded-3xl bg-gradient-to-b from-white via-white to-transparent">
           <div className="col-span-9">

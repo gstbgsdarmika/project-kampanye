@@ -24,9 +24,9 @@ const Hero = () => {
               Agung Suyoga Menyapa!
             </p>
             <p className="mt-3 text-sm font-normal text-justify text-black md:text-lg md:max-w-[876px]">
-              Kami dari tim relawan Agung Yoga merupakan tim yang selalu
-              menyertai Agung Yoga dalam kampanye pemilu, mari maju demi Bali
-              yang lebih baik lagi untuk kita semua!.
+              Kami dari tim relawan Agung Suyoga merupakan tim yang selalu
+              menyertai Agung Suyoga dalam kampanye pemilu, mari maju demi Bali
+              yang lebih baik lagi untuk kita semua!
             </p>
           </div>
           <div className="mx-auto py-10 md:py-20 my-0">
@@ -35,10 +35,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="md:absolute pt-10 md:pt-0 inset-x-0 bottom-0 h-16">
-        <img src={bannerImg} alt="Banner Image" className="w-full object-cover" />
+        <img
+          src={bannerImg}
+          alt="Banner Image"
+          className="w-full object-cover"
+        />
       </div>
     </div>
-
   );
 };
 

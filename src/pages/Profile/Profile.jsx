@@ -26,14 +26,14 @@ export default function Profile() {
           </p>
           <p className="mt-3 text-sm font-normal text-justify text-black md:text-lg md:max-w-[876px]">
             Seorang kandidat yang memiliki dedikasi tinggi dalam melayani
-            masyarakat. Gede Agung Suyoga dikenal sebagai individu yang
-            berkomitmen pada nilai-nilai keadilan, kebersamaan, dan keterbukaan.
-            Dalam visi dan misinya, beliau menekankan pentingnya membangun
-            fondasi yang kuat untuk masyarakat yang harmonis dan saling
-            mendukung.
+            masyarakat. Anak Agung Gede Agung Suyoga dikenal sebagai individu
+            yang berkomitmen pada nilai-nilai keadilan, kebersamaan, dan
+            keterbukaan. Dalam visi dan misinya, beliau menekankan pentingnya
+            membangun pondasi yang kuat untuk masyarakat yang harmonis dan
+            saling mendukung.
           </p>
         </div>
-        <div className="mx-auto md:py-20 my-0">
+        <div className="md:ms-10 md:py-20">
           <img src={profile} alt="Profile Image" className="w-full md:w-auto" />
         </div>
       </div>

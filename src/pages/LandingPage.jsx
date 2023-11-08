@@ -19,7 +19,7 @@ export default function LandingPage() {
       <Profile />
       <Family />
       <Navigation />
-      <Achievement />
+      {/* <Achievement /> */}
       <Program />
       <Blog />
       <Countdown />
