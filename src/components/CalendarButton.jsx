@@ -6,19 +6,18 @@ export default function CalendarButton() {
 
   const eventDetails = {
     text: "Pemilihan Calon DPRD Kota Denpasar Tahun 2024",
-    dates: "20240214T070000/20240214T080000",
+    startDateTime: "2024-02-14T07:00:00+08:00",
+    endDateTime: "2024-02-14T08:00:00+08:00",
     details:
       "Mari bergabung dalam pemilihan Calon Anggota Dewan Perwakilan Rakyat Daerah (DPRD) Kota Denpasar untuk masa jabatan tahun 2024-2029. Suara Anda adalah suara perubahan!",
     location: "Denpasar, Denpasar City, Bali, Indonesia",
   };
 
   const addToGoogleCalendar = () => {
-    const startDate = moment(eventDetails.dates.split("/")[0]).format(
-      "YYYYMMDDTHHmmss[Z]"
+    const startDate = moment(eventDetails.startDateTime).format(
+      "YYYYMMDDTHHmmss"
     );
-    const endDate = moment(eventDetails.dates.split("/")[1]).format(
-      "YYYYMMDDTHHmmss[Z]"
-    );
+    const endDate = moment(eventDetails.endDateTime).format("YYYYMMDDTHHmmss");
 
     const url = `${BASE_URL}?action=TEMPLATE&text=${encodeURIComponent(
       eventDetails.text
