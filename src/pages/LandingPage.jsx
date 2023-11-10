@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import { Navigation } from "../components/Navigation";
 import Footer from "../components/Footer";
 import Achievement from "./Achievement/Achievement";
@@ -11,15 +12,16 @@ import Blog from "./Blog/Blog";
 import Gallery from "./Gallery/Gallery";
 import Discussion from "./Discussion/Discussion";
 import Comment from "./Comment/Comment";
+import MusicBS from "../components/MusicBS";
 
 export default function LandingPage() {
   return (
     <div className="LandingPage">
       <Hero />
       <Profile />
+      <MusicBS />
       <Family />
       <Navigation />
-      {/* <Achievement /> */}
       <Program />
       <Blog />
       <Countdown />

@@ -12,9 +12,6 @@ export default function Discussion() {
   const [showVideo, setShowVideo] = useState(false);
 
   useEffect(() => {
-    // Anda dapat mengatur `showVideo` menjadi `true` setelah suatu kejadian atau penundaan tertentu
-    // Sebagai contoh, Anda dapat menggunakan klik tombol atau timer
-    // Untuk contoh ini, kita akan mengaturnya menjadi true segera
     setShowVideo(true);
   }, []);
 
