@@ -45,8 +45,7 @@ export default function Program() {
           title="Pembuatan NIB"
           subtitle="Bekerjasama dengan gama law untuk membantu para UMKM membuat Nomor Induk Berusaha"
           imageUrl={ImgProgram3}
-          link="https://www.instagram.com/reel/Cxz1gKCSmKn/?
-          utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+          link="https://www.instagram.com/reel/Cxz1gKCSmKn/?igshid=MzRlODBiNWFlZA=="
         />
       </div>
     </div>
