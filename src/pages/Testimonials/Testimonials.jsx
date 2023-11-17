@@ -45,34 +45,26 @@ export default function Testimonials() {
         >
           <SwiperSlide>
             <TestimonialsCard
-              testimonials="Saya mendukung Agung Suyoga jadi calon DPRD Kota Denpasar karena lihat hasil kerja beliau yang sepertinya mengutamakan kepentingan masyarakat. Semoga dia bisa buktikan janjinya dan bawa perubahan positif buat daerah kita."
+              testimonials="Saya dengan senang hati memberikan dukungan penuh untuk Agung Suyoga sebagai calon DPRD Kota Denpasar. Melihat dedikasi dan hasil kerjanya, saya yakin bahwa beliau memiliki komitmen yang tinggi terhadap kepentingan masyarakat. Semoga Agung Suyoga dapat menjalankan visi dan misinya dengan baik."
               imageUrl={img}
-              name="Alvin Wirapratama"
-              subtitle="Pencari Pacar Muslim"
+              name="Bagus Darmika"
+              subtitle="Influencer"
             />
           </SwiperSlide>
           <SwiperSlide>
             <TestimonialsCard
-              testimonials="Saya mendukung Agung Suyoga jadi calon DPRD Kota Denpasar karena lihat hasil kerja beliau yang sepertinya mengutamakan kepentingan masyarakat. Semoga dia bisa buktikan janjinya dan bawa perubahan positif buat daerah kita."
+              testimonials="Saya yakin Agung Suyoga adalah pemimpin yang tepat untuk mewakili kita di DPRD Kota Denpasar. Pengalaman dan pengetahuannya tentang isu-isu kota, dikombinasikan dengan kepedulian mendalam terhadap kebutuhan masyarakat, membuat Agung Suyoga menjadi pilihan yang tepat"
               imageUrl={img}
-              name="Alvin Wirapratama"
-              subtitle="Pencari Pacar Muslim"
+              name="Kartika Noviyanti"
+              subtitle="Owner UMKM"
             />
           </SwiperSlide>
           <SwiperSlide>
             <TestimonialsCard
-              testimonials="Saya mendukung Agung Suyoga jadi calon DPRD Kota Denpasar karena lihat hasil kerja beliau yang sepertinya mengutamakan kepentingan masyarakat. Semoga dia bisa buktikan janjinya dan bawa perubahan positif buat daerah kita."
+              testimonials="Kejujuran, integritas, dan kepedulian terhadap aspirasi warga sangat membanggakan. Dalam situasi politik yang sering kali kompleks, Agung Suyoga memberikan harapan baru untuk kepemimpinan yang transparan dan akuntabel sehingga bersama-sama kita dapat mewujudkan masa depan yang lebih baik"
               imageUrl={img}
-              name="Alvin Wirapratama"
-              subtitle="Pencari Pacar Muslim"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TestimonialsCard
-              testimonials="Saya mendukung Agung Suyoga jadi calon DPRD Kota Denpasar karena lihat hasil kerja beliau yang sepertinya mengutamakan kepentingan masyarakat. Semoga dia bisa buktikan janjinya dan bawa perubahan positif buat daerah kita."
-              imageUrl={img}
-              name="Alvin Wirapratama"
-              subtitle="Pencari Pacar Muslim"
+              name="Alvin Wiraprathama"
+              subtitle="Mahasiswa"
             />
           </SwiperSlide>
         </Swiper>

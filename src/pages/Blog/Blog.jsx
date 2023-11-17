@@ -1,5 +1,8 @@
 import BlogCard from "../../components/BlogCard";
 import ImgBlog from "../../assets/image/blogcard.png";
+import ImgBlog2 from "../../assets/image/blogcard2.png";
+import ImgBlog3 from "../../assets/image/blogcard3.png";
+import ImgBlog4 from "../../assets/image/blogcard4.png";
 import Blog1 from "../../assets/image/hero.png";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -46,7 +49,7 @@ export default function Blog() {
             <BlogCard
               date="Selasa, 23 April 2019"
               description="AA Gede Agung Suyoga Jadi Anggota DPRD Termuda"
-              imageUrl={Blog1}
+              imageUrl={ImgBlog}
               link="https://www.gesuri.id/amp/pemilu/aa-gede-agung-suyoga-jadi-anggota-dprd-termuda-b1We7ZjtB"
             />
           </SwiperSlide>
@@ -54,7 +57,7 @@ export default function Blog() {
             <BlogCard
               date="Jumat, 3 April 2020"
               description="Agung Suyoga Sumbangkan Pendapatannya Sebagai Anggota DPRD Bali"
-              imageUrl={ImgBlog}
+              imageUrl={ImgBlog2}
               link="https://radarbali.jawapos.com/bali/amp/70833788/agung-suyoga-sumbangkan-pendapatannya-sebagai-anggota-dprd-bali"
             />
           </SwiperSlide>
@@ -62,7 +65,7 @@ export default function Blog() {
             <BlogCard
               date="Jumat, 3 April 2020"
               description="Tanggulangi COVID-19, Agung Suyoga Sumbangkan Gaji Anggota DPRD Bali"
-              imageUrl={ImgBlog}
+              imageUrl={ImgBlog4}
               link="https://www.balipost.com/news/2020/04/03/113565/Tanggulangi-COVID-19,Agung-Suyoga-Sumbangkan...html"
             />
           </SwiperSlide>
@@ -70,7 +73,7 @@ export default function Blog() {
             <BlogCard
               date="Kamis, 16 April 2020"
               description="Agung Suyoga Dukung Gerakan Gizi untuk Medis"
-              imageUrl={ImgBlog}
+              imageUrl={ImgBlog3}
               link="https://www.balipost.com/news/2020/04/16/115950/Agung-Suyoga-Dukung-Gerakan-Gizi...html"
             />
           </SwiperSlide>
