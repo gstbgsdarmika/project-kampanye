@@ -14,7 +14,7 @@ export default function GalleryCard() {
           <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[388.19px] relative">
             <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[388.19px] left-0 top-0 absolute bg-slate-50 rounded-[20.91px]" />
             <img
-              className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[388.19px] left-0 top-0 absolute rounded-[20.91px]"
+              className="object-cover w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[388.19px] left-0 top-0 absolute rounded-[20.91px]"
               src={img1}
             />
             <div className="w-[222.48px] h-[62.73px] left-[51.02px] top-[229.01px] md:w-[266px] md:h-[75px] md:left-[61px] md:top-[273.81px] absolute flex-col justify-start items-start gap-[5.85px] md:gap-[7px] inline-flex">
@@ -31,7 +31,7 @@ export default function GalleryCard() {
           <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[388.19px] relative">
             <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[388.19px] left-0 top-0 absolute bg-slate-50 rounded-[20.91px] md:rounded-[25px]" />
             <img
-              className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[388.19px] left-0 top-0 absolute rounded-[20.91px] md:rounded-[25px]"
+              className="object-cover w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[388.19px] left-0 top-0 absolute rounded-[20.91px] md:rounded-[25px]"
               src={img4}
             />
             <div className="w-[222.48px] h-[62.73px] left-[51.02px] top-[229.01px] md:w-[266px] md:h-[75px] md:left-[61px] md:top-[273.81px] absolute flex-col justify-start items-start gap-[5.85px] md:gap-[7px] inline-flex">
@@ -50,7 +50,7 @@ export default function GalleryCard() {
           <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[275.11px] relative">
             <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[275.11px] left-0 top-0 absolute bg-slate-50 rounded-[20.91px] md:rounded-[25px]" />
             <img
-              className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[274.97px] left-0 top-0 absolute rounded-[20.91px] md:rounded-[25px]"
+              className="object-cover w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[274.97px] left-0 top-0 absolute rounded-[20.91px] md:rounded-[25px]"
               src={img2}
             />
             <div className="w-[222.48px] h-[62.73px] left-[51.02px] top-[229.01px] md:w-[180px] md:h-[71px] md:left-[104px] md:top-[162px] absolute flex-col justify-start items-start md:gap-[7px] gap-[5.85px] inline-flex">
@@ -66,7 +66,7 @@ export default function GalleryCard() {
         <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501.27px] mb:pb-[0.27px] flex-col justify-center items-center inline-flex">
           <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501px] relative">
             <img
-              className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501px] left-0 top-0 absolute md:rounded-[25px] rounded-[20.91px]"
+              className="object-cover w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501px] left-0 top-0 absolute md:rounded-[25px] rounded-[20.91px]"
               src={img5}
             />
             <div className="w-[222.48px] h-[62.73px] md:w-[266px] md:h-[75px] md:left-[61px] md:top-[385px] absolute flex-col md:justify-start md:items-start md:gap-[7px] inline-flex justify-center items-center left-[51.02px] gap-[5.85px] top-[229.01px]">
@@ -84,7 +84,7 @@ export default function GalleryCard() {
         <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501.27px] md:mb:pb-[0.27px] flex-col justify-center items-center inline-flex">
           <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501px] relative">
             <img
-              className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501px] left-0 top-0 absolute rounded-[20.91px] md:rounded-[25px]"
+              className="object-cover w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[501px] left-0 top-0 absolute rounded-[20.91px] md:rounded-[25px]"
               src={img3}
             />
             <div className="w-[222.48px] h-[62.73px] md:w-[266px] md:h-[75px] md:left-[61px] md:top-[385px] absolute flex-col md:justify-start md:items-start md:gap-[7px] inline-flex justify-center items-center left-[51.02px] gap-[5.85px] top-[229.01px]">
@@ -101,7 +101,7 @@ export default function GalleryCard() {
           <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[275.11px] relative">
             <div className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[275.11px] left-0 top-0 absolute" />
             <img
-              className="w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[274.97px] left-0 top-0 absolute rounded-[25px]"
+              className=" object-cover w-[324.68px] h-[324.68px] md:w-[388.19px] md:h-[274.97px] left-0 top-0 absolute rounded-[25px]"
               src={img6}
             />
             <div className="w-[222.48px] h-[62.73px] left-[51.02px] top-[229.01px] md:w-[149px] md:h-[71px] md:left-[119.50px] md:top-[162px] absolute flex-col justify-start items-start gap-[7px] inline-flex">

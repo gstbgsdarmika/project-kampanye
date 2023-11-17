@@ -1,5 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import img from "../../assets/image/alvin.png";
+import img2 from "../../assets/image/darmika.png";
+import img3 from "../../assets/image/kartika.png";
 import TestimonialsCard from "../../components/TestimonialsCard";
 
 // Import Swiper styles
@@ -46,7 +48,7 @@ export default function Testimonials() {
           <SwiperSlide>
             <TestimonialsCard
               testimonials="Saya dengan senang hati memberikan dukungan penuh untuk Agung Suyoga sebagai calon DPRD Kota Denpasar. Melihat dedikasi dan hasil kerjanya, saya yakin bahwa beliau memiliki komitmen yang tinggi terhadap kepentingan masyarakat. Semoga Agung Suyoga dapat menjalankan visi dan misinya dengan baik."
-              imageUrl={img}
+              imageUrl={img2}
               name="Bagus Darmika"
               subtitle="Influencer"
             />
@@ -54,7 +56,7 @@ export default function Testimonials() {
           <SwiperSlide>
             <TestimonialsCard
               testimonials="Saya yakin Agung Suyoga adalah pemimpin yang tepat untuk mewakili kita di DPRD Kota Denpasar. Pengalaman dan pengetahuannya tentang isu-isu kota, dikombinasikan dengan kepedulian mendalam terhadap kebutuhan masyarakat, membuat Agung Suyoga menjadi pilihan yang tepat"
-              imageUrl={img}
+              imageUrl={img3}
               name="Kartika Noviyanti"
               subtitle="Owner UMKM"
             />
