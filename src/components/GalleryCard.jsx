@@ -106,7 +106,7 @@ export default function GalleryCard() {
             />
             <div className="w-[222.48px] h-[62.73px] left-[51.02px] top-[229.01px] md:w-[149px] md:h-[71px] md:left-[119.50px] md:top-[162px] absolute flex-col justify-start items-start gap-[7px] inline-flex">
               <div className="self-stretch text-center text-slate-100 md:text-2xl font-bold md:leading-[34px] text-xl leading-7">
-                Peduli Lingkungan
+                Hijau dan Bersih
               </div>
               <div className="self-stretch text-center text-slate-200 md:text-lg font-normal text-[15.06px] md:leading-[30px] leading-[15.06px]">
                 2 Nov 2022
