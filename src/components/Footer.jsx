@@ -45,16 +45,16 @@ const Footer = () => {
             </li>
           </ul>
           <div className="flex gap-4 justify-center py-4 sm:py-0 sm:mb-0">
-            <a href="#" className="flex items-center">
+            <a href="http://facebook.com/RelawanAgungSuyoga2" className="flex items-center"  target="_blank" rel="noreferrer">
               <img src={fb} className="h-8" alt="FB Logo" />
             </a>
-            <a href="#" className="flex items-center">
+            <a href="http://www.tiktok.com/@agungsuyogaa" className="flex items-center" target="_blank" rel="noreferrer">
               <img src={tiktok} className="h-8" alt="Tiktok Logo" />
             </a>
-            <a href="#" className="flex items-center">
+            <a href="https://www.youtube.com/@agungsuyoga" className="flex items-center" target="_blank" rel="noreferrer">
               <img src={yt} className="h-8" alt="Youtube Logo" />
             </a>
-            <a href="#">
+            <a href="https://instagram.com/relawanagungsuyoga?igshid=YzAwZjE1ZTI0Zg==" target="_blank" rel="noreferrer">
               <img src={ig} className="h-8" alt="IG Logo" />
             </a>
           </div>
