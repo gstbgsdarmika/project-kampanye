@@ -6,8 +6,8 @@ export default function CalendarButton() {
 
   const eventDetails = {
     text: "Pemilihan Calon DPRD Kota Denpasar Tahun 2024",
-    startDateTime: "2024-02-14T07:00:00+08:00",
-    endDateTime: "2024-02-14T08:00:00+08:00",
+    startDateTime: "2026-04-20T07:00:00+08:00",
+    endDateTime: "2026-04-20T08:00:00+08:00",
     details:
       "Mari bergabung dalam pemilihan Calon Anggota Dewan Perwakilan Rakyat Daerah (DPRD) Kota Denpasar untuk masa jabatan tahun 2024-2029. Suara Anda adalah suara perubahan!",
     location: "Denpasar, Denpasar City, Bali, Indonesia",
@@ -15,14 +15,14 @@ export default function CalendarButton() {
 
   const addToGoogleCalendar = () => {
     const startDate = moment(eventDetails.startDateTime).format(
-      "YYYYMMDDTHHmmss"
+      "YYYYMMDDTHHmmss",
     );
     const endDate = moment(eventDetails.endDateTime).format("YYYYMMDDTHHmmss");
 
     const url = `${BASE_URL}?action=TEMPLATE&text=${encodeURIComponent(
-      eventDetails.text
+      eventDetails.text,
     )}&dates=${startDate}/${endDate}&details=${encodeURIComponent(
-      eventDetails.details
+      eventDetails.details,
     )}&location=${encodeURIComponent(eventDetails.location)}`;
 
     window.open(url, "_blank");
