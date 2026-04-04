@@ -4,7 +4,7 @@ import Img from "../../assets/image/bgCountdown.png";
 import CalendarButton from "../../components/CalendarButton";
 
 export default function Countdown() {
-  const targetDate = new Date("2024-02-14T07:00:00+08:00");
+  const targetDate = new Date("2026-04-20T07:00:00+08:00");
 
   const programBg = {
     backgroundImage: `url(${Img})`,
